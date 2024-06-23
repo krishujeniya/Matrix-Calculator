@@ -1,6 +1,9 @@
 
 <a id="readme-top"></a>
-
+![GitHub repo size](https://img.shields.io/github/repo-size/krishujeniya/Matrix-Calculator)
+![GitHub contributors](https://img.shields.io/github/contributors/krishujeniya/Matrix-Calculator)
+![GitHub stars](https://img.shields.io/github/stars/krishujeniya/Matrix-Calculator?style=social)
+![GitHub forks](https://img.shields.io/github/forks/krishujeniya/Matrix-Calculator?style=social)
 
 
 
