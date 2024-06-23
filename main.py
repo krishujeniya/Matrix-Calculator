@@ -165,12 +165,12 @@ def Matrix_3x3():
     i = Entry(df, width=7, font="arial 30", bg="yellow", fg="black")
     i.grid(row=4, column=3, padx=10, pady=10)
     result_frame = Frame(df, bg="black")
-    result_frame.grid(row=5, column=0, pady=20)
+    result_frame.grid(row=6, column=0, columnspan=2, pady=20)
     result_label = Label(result_frame, text="", bg="black", fg="white", font="mono 30 bold")
-    result_label.grid(row=8, column=0, pady=20)
+    result_label.grid(row=7, column=0, columnspan=2, pady=20)
 
-    Button(df, text="Determinant", command=calculate_determinant, bg="maroon", fg="white", font="arial 30").grid(row=5, column=3, pady=20)
-    Button(df, text="Inverse", command=calculate_inverse, bg="maroon", fg="white", font="arial 30").grid(row=6, column=3, pady=20)
+    Button(df, text="Determinant", command=calculate_determinant, bg="maroon", fg="white", font="arial 30").grid(row=3, column=4, pady=20)
+    Button(df, text="Inverse", command=calculate_inverse, bg="maroon", fg="white", font="arial 30").grid(row=4, column=4, pady=20)
 
 
     df.mainloop()
