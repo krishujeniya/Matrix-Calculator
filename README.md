@@ -88,17 +88,17 @@ To get a local copy up and running, follow these steps.
    docker build -t determinant_founder .
    ```
 
-## Step-by-Step Guide to Enable X11 Forwarding in Docker
+3. Step-by-Step Guide to Enable X11 Forwarding in Docker
 
-1. **Install XQuartz (macOS) or Xming (Windows)**:
+i. **Install XQuartz (macOS) or Xming (Windows)**:
    - **macOS**: Install XQuartz from [XQuartz.org](https://www.xquartz.org/).
    - **Windows**: Install Xming from [Xming.org](https://sourceforge.net/projects/xming/).
 
-2. **Allow Connections**:
+ii. **Allow Connections**:
    - **macOS**: Open XQuartz, go to **Preferences > Security**, and check "Allow connections from network clients".
    - **Windows**: Start Xming with default settings.
 
-3. **Run Docker Container with X11 Forwarding**:
+iii. **Run Docker Container with X11 Forwarding**:
 
    **On Linux**:
 
