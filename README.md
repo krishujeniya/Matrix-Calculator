@@ -1,17 +1,17 @@
 
 <a id="readme-top"></a>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/krishujeniya/DETERMINANT-FOUNDER)
-![GitHub contributors](https://img.shields.io/github/contributors/krishujeniya/DETERMINANT-FOUNDER)
-![GitHub stars](https://img.shields.io/github/stars/krishujeniya/DETERMINANT-FOUNDER?style=social)
-![GitHub forks](https://img.shields.io/github/forks/krishujeniya/DETERMINANT-FOUNDER?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/krishujeniya/Matrix-Calculator)
+![GitHub contributors](https://img.shields.io/github/contributors/krishujeniya/Matrix-Calculator)
+![GitHub stars](https://img.shields.io/github/stars/krishujeniya/Matrix-Calculator?style=social)
+![GitHub forks](https://img.shields.io/github/forks/krishujeniya/Matrix-Calculator?style=social)
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <img src="mylogo.png" alt="Logo" width="80" height="80">
 
-  <h1 align="center">DETERMINANT-FOUNDER</h1>
+  <h1 align="center">Matrix Calculator</h1>
 </div>
 
 <details>
@@ -38,7 +38,7 @@
 
 ## About The Project
 
-This project is a graphical user interface (GUI) application developed using Python's Tkinter library. It allows users to calculate the determinants of 2x2 and 3x3 matrices. The application provides a simple, intuitive interface for inputting matrix values and displays the calculated determinant.
+This project is a graphical user interface (GUI) application developed using Python's Tkinter library. It allows users to calculate the determinants and inverses of 2x2 and 3x3 matrices. The application provides a simple, intuitive interface for inputting matrix values and displays the calculated results.
 
 ### Key Features
 
@@ -46,9 +46,9 @@ This project is a graphical user interface (GUI) application developed using Pyt
   - The application utilizes Tkinter to create a clean and visually appealing interface.
   - Large, readable fonts and color schemes (yellow for input fields, maroon for buttons) enhance usability.
 
-- **Matrix Determinant Calculation:**
+- **Matrix Determinant and Inverse Calculation:**
   - Supports calculations for both 2x2 and 3x3 matrices.
-  - Users can input matrix elements, and the determinant is calculated and displayed with a single click.
+  - Users can input matrix elements, and the determinant and inverse are calculated and displayed with a single click.
 
 - **Error Handling:**
   - Built-in error handling ensures that invalid inputs are detected and handled gracefully, preventing application crashes.
@@ -59,7 +59,7 @@ This project is a graphical user interface (GUI) application developed using Pyt
 
 - **Clear Result Display:**
   - Results are displayed prominently in a label below the input fields and calculation button.
-  - Ensures users can easily see the calculated determinant.
+  - Ensures users can easily see the calculated results.
 
 ## Built With
 
@@ -80,12 +80,12 @@ To get a local copy up and running, follow these steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/krishujeniya/DETERMINANT-FOUNDER.git
-   cd DETERMINANT-FOUNDER
+   git clone https://github.com/krishujeniya/Matrix-Calculator.git
+   cd Matrix-Calculator
    ```
 2. Build the Docker image
    ```sh
-   docker build -t determinant_founder .
+   docker build -t matrix_calculator .
    ```
 
 3. Step-by-Step Guide to Enable X11 Forwarding in Docker
@@ -103,18 +103,18 @@ To get a local copy up and running, follow these steps.
    **On Linux**:
    ```sh
    xhost +local:docker
-   docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix determinant_founder
+   docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix matrix_calculator
    ```
 
    **On macOS with XQuartz**:
    ```sh
    xhost + 127.0.0.1
-   docker run -it --rm -e DISPLAY=host.docker.internal:0 determinant_founder
+   docker run -it --rm -e DISPLAY=host.docker.internal:0 matrix_calculator
    ```
 
    **On Windows with Xming**:
    ```sh
-   docker run -it --rm -e DISPLAY=host.docker.internal:0 determinant_founder
+   docker run -it --rm -e DISPLAY=host.docker.internal:0 matrix_calculator
    ```
 
 ## License
@@ -127,4 +127,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 * [Tkinter](https://docs.python.org/3/library/tkinter.html)
 * [Docker](https://www.docker.com/)
 * [Open Source Community](https://opensource.org/)
-* [Contributors](https://github.com/determinant_founder/my-tkinter-app/graphs/contributors)
+* [Contributors](https://github.com/krishujeniya/Matrix-Calculator/graphs/contributors)
