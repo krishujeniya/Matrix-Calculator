@@ -10,7 +10,7 @@
 <div align="center">
 
 
-  <h3 align="center">DETERMINANT-FOUNDER</h3>
+  <h1 align="center">DETERMINANT-FOUNDER</h1>
 
 </div>
 
@@ -37,16 +37,29 @@
 
 ## About The Project
 
-This is a simple Tkinter application containerized using Docker.
+This project is a graphical user interface (GUI) application developed using Python's Tkinter library. It allows users to calculate the determinants of 2x2 and 3x3 matrices. The application provides a simple, intuitive interface for inputting matrix values and displays the calculated determinant.
 
-### Key Features
+#### Key Features
 
-- **User Authentication and Profile Management**
-- **Posting Updates with Text and Media**
-- **Liking and Commenting on Posts**
-- **Following and Unfollowing Users**
-- **Real-time Notifications**
-- **Search Functionality**
+1. **User-Friendly Interface:**
+   - The application utilizes Tkinter to create a clean and visually appealing interface.
+   - Large, readable fonts and color schemes (yellow for input fields, maroon for buttons) enhance usability.
+
+2. **Matrix Determinant Calculation:**
+   - Supports calculations for both 2x2 and 3x3 matrices.
+   - Users can input matrix elements, and the determinant is calculated and displayed with a single click.
+
+3. **Error Handling:**
+   - Built-in error handling ensures that invalid inputs are detected and handled gracefully, preventing application crashes.
+   - Displays an "Invalid input" message if non-numeric values are entered.
+
+4. **Responsive Design:**
+   - Grid layout with padding (`padx` and `pady`) ensures that the elements are well-spaced and easy to interact with.
+
+5. **Clear Result Display:**
+   - Results are displayed prominently in a label below the input fields and calculation button.
+   - Ensures users can easily see the calculated determinant.
+
 
 ## Built With
 
